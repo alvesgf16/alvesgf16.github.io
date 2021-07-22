@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap" rel="stylesheet">
         <title>Meu portfólio</title>
         <style>
             body {
@@ -27,7 +27,25 @@
             }
             
             .trybe {
-                color: #00bfa5
+                color: #00bfa5;
+            }
+
+            .fast-learner {
+                font-size: 20px;
+            }
+
+            .critical-thinking {
+                font-size: 18px;
+            }
+
+            .basic-languages {
+                font-family: 'Ubuntu Mono', monospace;
+            }
+
+            .english {
+                background-image: radial-gradient(#ff0000,#012169);
+                font-weight: normal;
+                color: #ffffff;
             }
         </style>
     </head>
@@ -62,25 +80,25 @@
             <div id="soft-skills">
                 <h3>Soft Skills</h3>
                 <ul>
-                    <li><strong>Facilidade para aprender</strong></li>
-                    <li>Curiosidade</li>
-                    <li>Pensamento crítico</li>
+                    <li class="fast-learner">Facilidade para aprender</li>
+                    <li class="critical-thinking">Pensamento crítico</li>
+                    <li class="curiosity">Curiosidade</li>
                 </ul>
             </div>
             <div id="programming-languages">
                 <h3>Linguagens</h3>
                 <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git/GitHub</li>
-                    <li>Unix/Bash</li>
+                    <li class="basic-languages">HTML</li>
+                    <li class="basic-languages">CSS</li>
+                    <li class="basic languages">JavaScript</li>
+                    <li class="basic-languages">Git/GitHub</li>
+                    <li class="basic-languages">Unix/Bash</li>
                 </ul>
             </div>
             <div id="languages">
                 <h3>Idiomas</h3>
                 <ul>
-                    <li>Inglês fluente</li>
+                    <li><strong class="english">Inglês fluente<strong></strong></li>
                 </ul>
             </div>
         </div>
