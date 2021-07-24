@@ -1,0 +1,63 @@
+body {
+    background-color: #4A4C4E;
+    color: white
+}
+
+.title {
+    font-size: 26px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.picture {
+    float: left;
+}
+
+.body-text{
+    height: 267px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.origin-color {
+    background-image: radial-gradient(#fedf00,#009b3a);
+    color: #002776;
+}
+
+.trybe {
+    color: #00bfa5;
+}
+
+.fast-learner {
+    font-size: 20px;
+}
+
+.critical-thinking {
+    font-size: 18px;
+}
+
+.basic-languages {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.english {
+    background-image: radial-gradient(#ff0000,#012169);
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.overwatch {
+    color: #FA9C1D;
+}
+
+.boardgames {
+    color: #e18800;
+}
+
+.football {
+    color: #567d46;
+}
