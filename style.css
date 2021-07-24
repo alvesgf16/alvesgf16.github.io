@@ -9,11 +9,6 @@ body {
     text-align: center;
 }
 
-a {
-    text-decoration: none;
-    color: white;
-}
-
 .about-me {
     border: 2px solid #FFFFFF;
     border-radius: 10px;
@@ -44,6 +39,50 @@ a {
 
 .trybe {
     color: #00bfa5;
+}
+
+.indice {
+    display: table;
+    margin-top: 25px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.indice h2 {
+    margin-top: 0.1em;
+    text-align: center;
+}
+
+.indice > ol {
+    padding-left: 0;
+}
+
+.indice ol {
+    margin: 0.3em 0;
+    list-style-type: none;
+    counter-reset: item;
+}
+
+.indice ol li {
+    margin-bottom: 0.1em;
+    line-height: 1.6;
+    counter-increment: item;
+}
+
+.indice ol li:before {
+    padding-left: 0;
+    padding-right: 0.5em;
+    content: counters(item, ".")
+}
+
+.indice ol ol {
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #74b3ce;
 }
 
 .skills div {
