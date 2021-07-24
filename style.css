@@ -55,7 +55,12 @@ a {
     width: 28.5%;
     height: 160px;
     padding: 0px 20px;
+    background-color: #000000;
     text-align: justify;
+}
+
+.skills li:nth-child(odd) {
+    color: #96ca4e;
 }
 
 .fast-learner {
