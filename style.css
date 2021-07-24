@@ -14,13 +14,27 @@ a {
     color: white;
 }
 
+.about-me {
+    border: 2px solid #FFFFFF;
+    border-radius: 10px;
+    height: 287px;
+    background-color: #000000;
+}
+
 .picture {
     float: left;
+    padding: 5px;
+}
+
+.picture img {
+    border-radius: 50%;
 }
 
 .body-text{
-    height: 267px;
+    padding-top: 30px;
+    padding-left: 300px;
     font-family: 'Open Sans', sans-serif;
+    color: #FA9C1D;
 }
 
 .origin-color {
@@ -30,6 +44,18 @@ a {
 
 .trybe {
     color: #00bfa5;
+}
+
+.skills div {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 0.5%;
+    border: 2px solid #FA9C1D;
+    border-radius: 10px;
+    width: 28.5%;
+    height: 160px;
+    padding: 0px 20px;
+    text-align: justify;
 }
 
 .fast-learner {
