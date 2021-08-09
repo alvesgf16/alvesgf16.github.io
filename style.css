@@ -1,83 +1,41 @@
+* {
+    margin: 0;
+}
+
 body {
     background-color: #4A4C4E;
     color: white
 }
 
-.title {
-    font-size: 26px;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+header {
+    padding: 5px 0;
+    background: #FA9C1D;
 }
 
-.about-me {
-    border: 2px solid #FFFFFF;
-    border-radius: 10px;
-    height: 287px;
-    background-color: #000000;
+.header {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
 }
 
-.picture {
-    float: left;
-    padding: 5px;
+.header h1 {
+    padding-left: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000
 }
 
-.picture img {
-    border-radius: 50%;
+nav {
+    position: absolute;
+    top: 0;
+    right: 25px;
 }
 
-.body-text{
-    padding-top: 30px;
-    padding-left: 300px;
-    font-family: 'Open Sans', sans-serif;
-    color: #FA9C1D;
-}
-
-.origin-color {
-    background-image: radial-gradient(#fedf00,#009b3a);
-    color: #002776;
-}
-
-.trybe {
-    color: #00bfa5;
-}
-
-.indice {
-    display: table;
-    margin-top: 25px;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    padding: 7px;
-}
-
-.indice h2 {
-    margin-top: 0.1em;
-    text-align: center;
-}
-
-.indice > ol {
-    padding-left: 0;
-}
-
-.indice ol {
-    margin: 0.3em 0;
-    list-style-type: none;
-    counter-reset: item;
-}
-
-.indice ol li {
-    margin-bottom: 0.1em;
-    line-height: 1.6;
-    counter-increment: item;
-}
-
-.indice ol li:before {
-    padding-left: 0;
-    padding-right: 0.5em;
-    content: counters(item, ".")
-}
-
-.indice ol ol {
-    padding-left: 30px;
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
 a {
@@ -85,29 +43,127 @@ a {
     color: #74b3ce;
 }
 
-.skills div {
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 0.5%;
-    border: 2px solid #FA9C1D;
-    border-radius: 10px;
-    width: 28.5%;
-    height: 160px;
-    padding: 0px 20px;
+nav a {
+    font-size: 22px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #4A4C4E;
+}
+
+footer {
+    padding: 20px 0;
+    background: #FA9C1D;
+}
+
+.footer {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+}
+
+footer a {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000
+}
+
+footer ul {
+    position: absolute;
+    top: -13px;
+    right: 25px;
+}
+
+footer li {
+    display: inline;
+}
+
+.logos-redes {
+    width: 50px;
+}
+
+.about-me {
+    margin: 0 auto;
+    padding: 1em 0 0;
+    width: 100%;
     background-color: #000000;
+}
+
+.section-title {
+    clear: left;
+    margin: 0;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.personal-picture {
+    float: left;
+    margin: 0 40px 20px 0;
+    border-radius: 50%;    
+    padding: 5px;
+    width: 250px;
+}
+
+.about-me article {
+    padding: 10px 0 10px 300px;
+    height: 240px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FA9C1D;
+}
+
+.about-me p {
+    margin: 0 25px auto auto;
+    line-height: 1.5em;
     text-align: justify;
 }
 
-.skills li:nth-child(odd) {
-    color: #96ca4e;
+.trybe {
+    font-weight: bold;
+    color: #00bfa5;
 }
 
-.fast-learner {
+.skills-lists {
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.skills-lists div {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+}
+
+.skills-lists div > li {
+    display: block;    
+    margin: 20px 1.5%;
+    border: 2px solid #FA9C1D;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    background-color: #000000;
+}
+
+.skills-lists h3 {
+    margin: 0 auto 15px;
     font-size: 20px;
+    font-weight: bold;
+    text-align: center;
 }
 
-.critical-thinking {
-    font-size: 18px;
+.skills-lists ul {
+    padding-left: 20px;
+}
+
+.skills-lists ul li:nth-child(odd) {
+    color: #96ca4e;
 }
 
 .basic-languages {
