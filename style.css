@@ -1,189 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+
+* , *::before , *::after {
+  box-sizing: inherit;
+}
+
 * {
-    margin: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    background-color: #4A4C4E;
-    color: white
+  background-color: #4A4C4E;
 }
 
-header {
-    padding: 5px 0;
-    background: #FA9C1D;
+.container , header , footer {
+  background-color: #FA9C1D;
+  max-width: 100%;
 }
 
-.header {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
+h1 , .nav-link , footer div a {
+  color: black;
+  font-weight: bold;
 }
 
-.header h1 {
-    padding-left: 10px;
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #000000
+h1, footer div {
+  margin-left: 20px;
 }
 
-nav {
-    position: absolute;
-    top: 0;
-    right: 25px;
+h1 {
+  text-transform: uppercase;
 }
 
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
+header ul , footer ul {
+  margin-right: 20px;
 }
 
-a {
-    text-decoration: none;
-    color: #74b3ce;
-}
-
-nav a {
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #000000;
-}
-
-nav a:hover {
-    text-decoration: underline;
-    color: #4A4C4E;
-}
-
-footer {
-    padding: 20px 0;
-    background: #FA9C1D;
-}
-
-.footer {
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
-}
-
-footer a {
-    padding-left: 10px;
-    font-size: 20px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000000
-}
-
-footer ul {
-    position: absolute;
-    top: -13px;
-    right: 25px;
-}
-
-footer li {
-    display: inline;
-}
-
-.logos-redes {
-    width: 50px;
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: black;
+  color: #FA9C1D;
 }
 
 .about-me {
-    margin: 0 auto;
-    padding: 1em 0 0;
-    width: 100%;
-    background-color: #000000;
+  background-color: black;
 }
 
-.section-title {
-    clear: left;
-    margin: 0;
-    font-size: 2em;
-    font-weight: bold;
-    text-align: center;
+.about-me , .about-me .section-title {
+  color: white;
 }
 
 .personal-picture {
-    float: left;
-    margin: 0 40px 20px 0;
-    border-radius: 50%;    
-    padding: 5px;
-    width: 250px;
-}
-
-.about-me article {
-    padding: 10px 0 10px 300px;
-    height: 240px;
-    font-family: 'Open Sans', sans-serif;
-    color: #FA9C1D;
-}
-
-.about-me p {
-    margin: 0 25px auto auto;
-    line-height: 1.5em;
-    text-align: justify;
+  border-radius: 50%;
 }
 
 .trybe {
-    font-weight: bold;
-    color: #00bfa5;
+  text-decoration: none;
+  color: #00bfa5;
+  font-weight: bold;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.section-title {
+  text-align: center;
+  color: #FA9C1D;
 }
 
 .skills-lists {
-    margin: 0 auto;
-    width: 100%;
-    padding: 20px 0;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-around;
+  height: 350px;
 }
 
-.skills-lists div {
-    display: inline-block;
-    width: 49%;
-    vertical-align: top;
+.card {
+  border-color: #FA9C1D;
+  background-color: black;
+  color: white;
 }
 
-.skills-lists div > li {
-    display: block;    
-    margin: 20px 1.5%;
-    border: 2px solid #FA9C1D;
-    border-radius: 10px;
-    box-sizing: border-box;
-    padding: 20px 20px;
-    background-color: #000000;
+.card-title {
+  color: #96CA4E;
 }
 
-.skills-lists h3 {
-    margin: 0 auto 15px;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+.card-text li:nth-child(even) {
+  color: #96CA4E;
 }
 
-.skills-lists ul {
-    padding-left: 20px;
-}
-
-.skills-lists ul li:nth-child(odd) {
-    color: #96ca4e;
-}
-
-.basic-languages {
-    font-family: 'Ubuntu Mono', monospace;
-}
-
-.english {
-    background-image: radial-gradient(#ff0000,#012169);
-    font-weight: normal;
-    color: #ffffff;
+.card-link {
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .overwatch {
-    color: #FA9C1D;
+  color: #FA9C1D;
 }
 
 .boardgames {
-    color: #e18800;
+  color: rgb(213, 155, 22);
 }
 
 .football {
-    color: #567d46;
+  color: #25a519;
 }
