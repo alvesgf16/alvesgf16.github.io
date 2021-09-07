@@ -1,93 +1,107 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <title>Meu portfólio</title>
+  <head>
+    <meta charset="UTF-8">
+    <title>Página inicial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="d-flex flex-wrap justify-content-between py-3 mb-4 fixed-top">
+        <h1 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration -none fs-4">Gabriel Alves Ferreira</h1>
+  
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link active" href="/">Página inicial</a></li>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio">Portfólio</a></li>
+          </li>
+        </ul>
+      </header>
+    </div>
 
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header id="page-top">
-            <div class="header">
-                <h1>Gabriel Alves Ferreira</h1>
-                <nav>
-                    <ul>
-                        <li><a href="index.html">Página inicial</a></li>
-                        <li><a href="portfolio.html">Portfólio</a></li>
-                    </ul>
-                </nav>
+    <main>
+      <section class="about-me px-4 py-5 mt-5 text-center">
+        <img class="personal-picture d-block mx-auto mb-4" src="foto4.png" alt="Foto pessoal">
+        <h2 class="section-title display-5 fw-bold">Quem sou eu?</h2>
+        <article class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Sergipano de 26 anos. Um garoto que cresceu envolvido por jogos eletrônicos e de lógica, tendo inclusive participado de campeonatos de Robótica na escola, e que desenvolveu um interesse forte por estatísticas. Formado em Engenharia Civil pela UFS/SE. Atualmente, estudante de Desenvolvimento Web Full-Stack na <a class="trybe" href="https://www.betrybe.com/">Trybe</a>.</p>
+        </article>   
+      </section>
+      
+      <section class="skills" id="skills">
+        <h2 class="section-title">Competências e Interesses</h2>
+        <div class="skills-lists">
+          <div class="card" style="width: 18rem;height: 200px">
+            <div class="card-body">
+              <h3 class="card-title">Linguagens</h3>
+              <ul class="card-text">
+                <li class="basic-languages">HTML</li>
+                <li class="basic-languages">CSS</li>
+                <li class="basic languages">JavaScript</li>
+                <li class="basic-languages">Git/GitHub</li>
+                <li class="basic-languages">Unix/Bash</li>
+              </ul>
             </div>
-        </header>
-
-        <main>
-            <section class="about-me">
-                <h2 class="section-title">Quem sou eu?</h2>
-                <img class="personal-picture" src="foto4.png" alt="Foto pessoal">
-                <article>
-                    <p>Sergipano de 26 anos. Um garoto que cresceu envolvido por jogos eletrônicos e de lógica, tendo inclusive participado de campeonatos de Robótica na escola, e que desenvolveu um interesse forte por estatísticas. Formado em Engenharia Civil pela UFS/SE. Atualmente, estudante de Desenvolvimento Web Full-Stack na <a class="trybe" href="https://www.betrybe.com/">Trybe</a>.</p>
-                </article>
-                
-            </section>
-            
-            <section class="skills" id="skills">
-                <h2 class="section-title">Competências e Interesses</h2>
-                <ul class="skills-lists">
-                    <div>
-                        <li><h3>Linguagens</h3>
-                            <ul>
-                                <li class="basic-languages">HTML</li>
-                                <li class="basic-languages">CSS</li>
-                                <li class="basic languages">JavaScript</li>
-                                <li class="basic-languages">Git/GitHub</li>
-                                <li class="basic-languages">Unix/Bash</li>
-                            </ul>
-                        </li>
-                        <li><h3>Idiomas</h3>
-                            <ul>
-                                <li><strong class="english">Inglês fluente</strong></li>
-                            </ul>
-                        </li>    
-                    </div>
-                    <div>
-                        <li><h3>Soft Skills</h3>
-                            <ul>
-                                <li>Facilidade para aprender</li>
-                                <li>Pensamento crítico</li>
-                                <li>Curiosidade</li>
-                            </ul>
-                        </li>
-                        <li><h3>Interesses</h3>
-                            <ul>
-                                <li><a href="https://overwatchleague.com/en-us/" target="_blank" class="overwatch">Overwatch</a></li>
-                                <li><a href="https://www.mundogalapagos.com.br/home" target="_blank" class="boardgames">Jogos de tabuleiro</a></li>
-                                <li><a href="https://1xbet.whoscored.com/" target="_blank" class="football">Futebol</a></li>
-                            </ul>
-                        </li>
-                    </div>
-                </ul>
-            </section>
-        </main>
-
-        <footer>
-            <div class="footer">
-                <a href="#page-top">Voltar para o topo</a>
-                <ul>
-                    <li><a href ="https://www.linkedin.com/in/alvesgf16/"><img class="logos-redes" src="logo-linkedin.png" alt="Logomarca do LinkedIn"></a></li>
-                    <li><a href ="https://www.github.com/in/alvesgf16/"><img class="logos-redes" src="logo-github.png" alt="Logomarca do GitHub"></a></li>
-                </ul>
+          </div>
+          <div class="card" style="width: 18rem;height: 100px">
+            <div class="card-body">
+              <h3 class="card-title">Idiomas</h3>
+              <ul class="card-text">
+                <li><strong class="english">Inglês fluente</strong></li>
+              </ul>
             </div>
-        </footer>
-    </body>
+          </div>
+          <div class="card" style="width: 18rem;height: 150px">
+            <div class="card-body">
+              <h3 class="card-title">Soft Skills</h3>
+              <ul class="card-text">
+                <li>Facilidade para aprender</li>
+                <li>Pensamento crítico</li>
+                <li>Curiosidade</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card" style="width: 18rem; height: 150px">
+            <div class="card-body">
+              <h3 class="card-title">Interesses</h3>
+              <ul class="card-text">
+                <li><a href="https://overwatchleague.com/en-us/" target="_blank" class="overwatch card-link">Overwatch</a></li>
+                <li><a href="https://www.mundogalapagos.com.br/home" target="_blank" class="boardgames card-link">Jogos de tabuleiro</a></li>
+                <li><a href="https://1xbet.whoscored.com/" target="_blank" class="football card-link">Futebol</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="#top" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <span>Voltar para o topo</span>
+          </a>
+        </div>
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+          <li class="ms-3">
+            <a href ="https://www.linkedin.com/in/alvesgf16/">
+              <img class="logos-redes bi" width="24" height="24" src="logo-linkedin.png" alt="Logomarca do LinkedIn">
+            </a>
+          </li>
+          <li class="ms-3">
+            <a href ="https://www.github.com/alvesgf16/">
+              <img class="logos-redes bi" width="24" height="24" src="logo-github.png" alt="Logomarca do GitHub">
+            </a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  </body>
 </html>
-
-
-
-
-
-
-
-
-
