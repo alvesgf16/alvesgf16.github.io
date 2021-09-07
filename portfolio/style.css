@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+}
+
+* , *::before , *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #4A4C4E;
+}
+
+div.container , header , footer {
+  background-color: #FA9C1D;
+  max-width: 100%;
+}
+
+h1 , .nav-link , footer div a {
+  color: black;
+  font-weight: bold;
+}
+
+h1, footer div {
+  margin-left: 20px;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+header ul , footer ul {
+  margin-right: 20px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: black;
+  color: #FA9C1D;
+}
+
+h2 {
+  color: #FA9C1D;
+}
+
+.album , .album .container {
+  background-color: black;
+}
+
+.bd-placeholder-img {
+  object-fit: cover;
+}
+
+.card-body {
+  background-color: #FA9C1D;
+}
+
+.card-text {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
