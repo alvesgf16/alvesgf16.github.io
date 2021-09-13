@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" class="h-100">
   <head>
     <meta charset="UTF-8">
     <title>Meu portfólio</title>
@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <div class="container">
       <header class="d-flex flex-wrap justify-content-between py-3 mb-4 fixed-top">
         <h1 class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration -none fs-4">Gabriel Alves Ferreira</h1>
@@ -27,7 +27,7 @@
 
     <main>
       <section class="pt-5 pb-3 text-center container mt-5">
-        <div class="row py-lg-5">
+        <div class="row py-lg-1">
           <div class="col-lg-6 col-md-8 mx-auto">
             <h2 class="fw-light">Meu portfólio</h2>
           </div>
@@ -56,6 +56,17 @@
       
                   <div class="card-body">
                     <p class="card-text">Pixel Art</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="todo-list/">
+                <div class="card shadow-sm">
+                  <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="todo-list/image.png"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/></img>
+      
+                  <div class="card-body">
+                    <p class="card-text">To-do List</p>
                   </div>
                 </div>
               </a>
@@ -196,27 +207,26 @@
     
     </main>
 
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
-        <div class="col-md-4 d-flex align-items-center">
-          <a href="#top" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-            <span>Voltar para o topo</span>
+    
+    <footer class="footer d-flex flex-wrap justify-content-between align-items-center mt-auto py-2">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="#top" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <span>Voltar para o topo</span>
+        </a>
+      </div>
+      <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3">
+          <a href ="https://www.linkedin.com/in/alvesgf16/">
+            <img class="logos-redes bi" width="24" height="24" src="/logo-linkedin.png" alt="Logomarca do LinkedIn">
           </a>
-        </div>
-        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3">
-            <a href ="https://www.linkedin.com/in/alvesgf16/">
-              <img class="logos-redes bi" width="24" height="24" src="/logo-linkedin.png" alt="Logomarca do LinkedIn">
-            </a>
-          </li>
-          <li class="ms-3">
-            <a href ="https://www.github.com/alvesgf16/">
-              <img class="logos-redes bi" width="24" height="24" src="/logo-github.png" alt="Logomarca do GitHub">
-            </a>
-          </li>
-        </ul>
-      </footer>
-    </div>
+        </li>
+        <li class="ms-3">
+          <a href ="https://www.github.com/alvesgf16/">
+            <img class="logos-redes bi" width="24" height="24" src="/logo-github.png" alt="Logomarca do GitHub">
+          </a>
+        </li>
+      </ul>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
 </html>
