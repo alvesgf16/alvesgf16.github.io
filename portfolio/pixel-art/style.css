@@ -11,6 +11,10 @@ html {
   padding: 0;
 }
 
+body {
+  white-space: nowrap;
+}
+
 main {
   background-image: url(https://thumbs.dreamstime.com/b/retro-s-videogame-tunnel-background-mountains-sun-bit-depth-field-inspired-vintage-videogames-web-print-156623128.jpg);
   background-position: center center;
