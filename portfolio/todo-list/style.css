@@ -1,0 +1,40 @@
+div#buttons-container input, div#buttons-container button {
+  margin: 3px;
+}
+
+input {
+  width: 100%
+}
+
+main {
+  background-image: url(https://st2.depositphotos.com/3917663/12209/i/950/depositphotos_122091130-stock-photo-brown-notebook-paper-for-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 84.6vh;
+  font-family: 'Parisienne', cursive;
+}
+
+main h3 {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  text-align: center;
+  font-size: 40px;
+}
+
+main ol {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+#selected {
+  background-color: gray;
+  color: brown;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+footer div {
+  text-align: center;
+}
